@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Test Document</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <nav class="navbar-test">
+        <h2>Tasty pizza</h2>
+        <ul>
+          <a href="#!"><li>shop</li></a>
+          <a href="#!"><li>products</li></a>
+          <a href="#!"><li>contact us</li></a>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-fluid mt-3 container-2">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary" id="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+    <div class="container-fluid">
+      <canvas id="myChart" width="400" height="400"> </canvas>
+    </div>
+    <div id="test"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <script src="graph.js"></script>
+    <script src="reactExample.js"></script>
+  </body>
+</html>

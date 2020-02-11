@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-1 {
+  display: block;
+  background-color: rgb(45, 20, 90);
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+.navbar-test {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-test,
+ul,
+a,
+li {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: azure;
+  font-size: 1em;
+  text-decoration: none;
+  font-size: large;
+  align-self: center;
+}
